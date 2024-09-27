@@ -65,3 +65,21 @@
     transform: rotate(720deg);
   }
 }
+.preLoader{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preLoader img {
+  animation: spin 3s ease;
+  width: 150px;
+  transition: all;
+  margin: 0 auto;
+  
+}
+
